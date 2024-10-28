@@ -1,0 +1,137 @@
+/* Write your CSS here */
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.product-info {
+  text-align: center;
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 24px;
+  color: #171f46;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 20px;
+  color: #3b82f6;
+  margin-bottom: 10px;
+}
+
+.product-rating-reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.star {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.rating {
+  font-size: 18px;
+  color: #171f46;
+}
+
+.reviews {
+  font-size: 18px;
+  color: #616e7c;
+}
+
+.product-description {
+  font-size: 16px;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.product-availability,
+.product-brand {
+  font-size: 16px;
+  color: #616e7c;
+  margin-bottom: 10px;
+}
+
+.separator {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.quantity-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quantity-controller-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.quantity-controller-icon {
+  width: 24px;
+  height: 24px;
+  color: #475569;
+}
+
+.quantity {
+  font-size: 18px;
+  color: #475569;
+  margin: 0 10px;
+}
+
+.add-to-cart-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.similar-products-heading {
+  font-size: 22px;
+  color: #171f46;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.similar-products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
